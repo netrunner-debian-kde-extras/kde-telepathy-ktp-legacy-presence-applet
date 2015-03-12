@@ -1,0 +1,15 @@
+--- ktp-legacy-presence-applet-1.0/CMakeLists.txt	2015-03-10 11:59:04.000000000 +0100
++++ ktp-legacy-presence-applet-1.0/CMakeLists.txt	2015-03-12 14:41:30.786794753 +0100
+@@ -36,3 +36,12 @@
+ add_subdirectory(plugin)
+ 
+ plasma_install_package(package org.kde.plasma.ktplegacypresenceapplet)
++
++
++
++if(EXISTS ${CMAKE_SOURCE_DIR}/po AND IS_DIRECTORY ${CMAKE_SOURCE_DIR}/po)
++  find_package(KF5I18n CONFIG REQUIRED)
++  ki18n_install(po)
++endif()
++
++

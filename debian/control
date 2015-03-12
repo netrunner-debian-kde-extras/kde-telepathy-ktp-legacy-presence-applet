@@ -1,0 +1,27 @@
+Source: ktp-legacy-presence-applet
+Priority: extra
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules,
+               libkf5configwidgets-dev,
+               libkf5i18n-dev,
+               libkf5iconthemes-dev,
+               libkf5service-dev,
+               libtelepathy-qt5-dev,
+               pkg-config,
+               pkg-kde-tools,
+               plasma-framework-dev,
+               qtbase5-dev,
+               qtdeclarative5-dev
+Standards-Version: 3.9.6
+Section: kde
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-extras/kde-telepathy/ktp-legacy-presence-applet.git/
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/ktp-legacy-presence-applet.git
+
+Package: ktp-legacy-presence-applet
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: KDE Telepathy Legacy Presence Applet
+ Plasmoid to show KDE Telepathy presence with KDE Telepathy 0.9 and
+ Plasma 5.

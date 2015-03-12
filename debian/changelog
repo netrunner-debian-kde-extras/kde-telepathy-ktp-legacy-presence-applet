@@ -1,0 +1,5 @@
+ktp-legacy-presence-applet (1.0-0ubuntu1) vivid; urgency=medium
+
+  * Initial package
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 12 Mar 2015 13:42:19 +0100
