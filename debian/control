@@ -19,7 +19,7 @@ Section: kde
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-extras/kde-telepathy/ktp-legacy-presence-applet.git/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/kde-telepathy/ktp-legacy-presence-applet.git
 
-Package: ktp-legacy-presence-applet
+Package: kde-telepathy-legacy-presence-applet
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: KDE Telepathy Legacy Presence Applet

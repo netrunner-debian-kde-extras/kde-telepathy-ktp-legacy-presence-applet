@@ -1,3 +1,15 @@
+ktp-legacy-presence-applet (1.1-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 15 Apr 2015 20:46:28 +0200
+
+ktp-legacy-presence-applet (1.0-0ubuntu2) vivid; urgency=medium
+
+  * Rename package to kde-telepathy-legacy-presence-applet
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 12 Mar 2015 17:13:28 +0100
+
 ktp-legacy-presence-applet (1.0-0ubuntu1) vivid; urgency=medium
 
   * Initial package
